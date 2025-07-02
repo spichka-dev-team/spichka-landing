@@ -1,1 +1,27 @@
 @import 'tailwindcss';
+
+:root {
+  --grid-color: #390101;
+  --grid-thickness: 2px;
+  --grid-spacing: 50px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  background-image:
+    linear-gradient(
+      to right,
+      var(--grid-color) var(--grid-thickness),
+      transparent var(--grid-thickness)
+    ),
+    linear-gradient(
+      to bottom,
+      var(--grid-color) var(--grid-thickness),
+      transparent var(--grid-thickness)
+    );
+  background-size: var(--grid-spacing) var(--grid-spacing);
+}

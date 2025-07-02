@@ -14,33 +14,53 @@ export const jost = localFont({
     { path: '../../public/fonts/Jost/static/Jost-ExtraBold.ttf', weight: '800', style: 'normal' },
     { path: '../../public/fonts/Jost/static/Jost-Black.ttf', weight: '900', style: 'normal' },
     { path: '../../public/fonts/Jost/static/Jost-Italic.ttf', weight: '400', style: 'italic' },
-    { path: '../../public/fonts/Jost/static/Jost-ExtraLightItalic.ttf', weight: '200', style: 'italic' },
+    {
+      path: '../../public/fonts/Jost/static/Jost-ExtraLightItalic.ttf',
+      weight: '200',
+      style: 'italic',
+    },
     { path: '../../public/fonts/Jost/static/Jost-LightItalic.ttf', weight: '300', style: 'italic' },
-    { path: '../../public/fonts/Jost/static/Jost-MediumItalic.ttf', weight: '500', style: 'italic' },
-    { path: '../../public/fonts/Jost/static/Jost-SemiBoldItalic.ttf', weight: '600', style: 'italic' },
+    {
+      path: '../../public/fonts/Jost/static/Jost-MediumItalic.ttf',
+      weight: '500',
+      style: 'italic',
+    },
+    {
+      path: '../../public/fonts/Jost/static/Jost-SemiBoldItalic.ttf',
+      weight: '600',
+      style: 'italic',
+    },
     { path: '../../public/fonts/Jost/static/Jost-BoldItalic.ttf', weight: '700', style: 'italic' },
-    { path: '../../public/fonts/Jost/static/Jost-ExtraBoldItalic.ttf', weight: '800', style: 'italic' },
+    {
+      path: '../../public/fonts/Jost/static/Jost-ExtraBoldItalic.ttf',
+      weight: '800',
+      style: 'italic',
+    },
     { path: '../../public/fonts/Jost/static/Jost-BlackItalic.ttf', weight: '900', style: 'italic' },
     { path: '../../public/fonts/Jost/static/Jost-ThinItalic.ttf', weight: '100', style: 'italic' },
-    { path: '../../public/fonts/Jost/Jost-VariableFont_wght.ttf', weight: '100 900', style: 'normal' },
-    { path: '../../public/fonts/Jost/Jost-Italic-VariableFont_wght.ttf', weight: '100 900', style: 'italic' },
+    {
+      path: '../../public/fonts/Jost/Jost-VariableFont_wght.ttf',
+      weight: '100 900',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Jost/Jost-Italic-VariableFont_wght.ttf',
+      weight: '100 900',
+      style: 'italic',
+    },
   ],
 });
 
 export const kurale = localFont({
   variable: '--font-kurale',
   display: 'swap',
-  src: [
-    { path: '../../public/fonts/Kurale/Kurale-Regular.ttf', weight: '400', style: 'normal' },
-  ],
+  src: [{ path: '../../public/fonts/Kurale/Kurale-Regular.ttf', weight: '400', style: 'normal' }],
 });
 
 export const oksFree = localFont({
   variable: '--font-oks-free',
   display: 'swap',
-  src: [
-    { path: '../../public/fonts/Oks/oks.ttf', weight: '400', style: 'normal' },
-  ],
+  src: [{ path: '../../public/fonts/Oks/oks.ttf', weight: '400', style: 'normal' }],
 });
 
 export const enthalpy298 = localFont({
